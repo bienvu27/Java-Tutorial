@@ -47,7 +47,7 @@ public class TaiXiu {
                 System.out.println("Ket qua: " + giaTri1 + "-" + giaTri2 + "-" + giaTri3);
                 if (tong == 3 || tong == 18) {
                     taiKhoanNguoiChoi -= datCuoc;
-                    System.out.println("Tổng là: " + tong + " Nhà cái ăn hết, bn thua.");
+                    System.out.println(" : " + tong + " Nhà cái ăn hết, bn thua.");
                     System.out.println("TK của bạn còn là: " + numf.format(taiKhoanNguoiChoi));
                 } else if (tong >= 4 && tong <= 10) {
                     System.out.println("Tổng là: " + tong + " Xỉu");
