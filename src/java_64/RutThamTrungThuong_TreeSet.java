@@ -2,10 +2,10 @@ package java_64;
 
 import java.util.*;
 
-public class RutThamTrungThuong_HashSet {
-    Set<String> thungPhieuDuThuong = new HashSet<String>();
+public class RutThamTrungThuong_TreeSet {
+    Set<String> thungPhieuDuThuong = new TreeSet<String>();
 
-    public RutThamTrungThuong_HashSet() {
+    public RutThamTrungThuong_TreeSet() {
     }
 
     public boolean themPhieu(String giaTri) {
@@ -44,7 +44,7 @@ public class RutThamTrungThuong_HashSet {
     public static void main(String[] args) {
         int luaChon = 0;
         Scanner sc = new Scanner(System.in);
-        RutThamTrungThuong_HashSet rt = new RutThamTrungThuong_HashSet();
+        RutThamTrungThuong_TreeSet rt = new RutThamTrungThuong_TreeSet();
         do {
             System.out.println("--------------------");
             System.out.println("Menu: ");
